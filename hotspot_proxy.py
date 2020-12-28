@@ -25,7 +25,7 @@ class Proxy(DatagramProtocol):
                 if Debug:
                     print("return path match")
                     print(data)
-            elif self.sourceTrack[str(self.connTrack[port]['host'])+":"+str(self.connTrack[port]['sport']) in self.sourceTrack:
+            elif self.sourceTrack[str(self.connTrack[port]['host'])+":"+str(self.connTrack[port]['sport'])] in self.sourceTrack:
                 del self.sourceTrack[str(self.connTrack[port]['host'])+":"+str(self.connTrack[port]['sport'])]
             return
         
