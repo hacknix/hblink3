@@ -5,3 +5,4 @@ dmr_utils3>=0.1.19
 configparser>=3.0.0
 mysql.connector
 resettabletimer>=0.7.0
+aprslib>=0.6.47
